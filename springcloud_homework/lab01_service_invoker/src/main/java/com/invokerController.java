@@ -27,7 +27,7 @@ public class invokerController {
     @RequestMapping(value = "/router",method = RequestMethod.GET)
     public String router(){
         RestTemplate restTemplate = getRestTemplate();
-        String s = restTemplate.getForObject("http://first-service-provider/person/TOM", String.class);
+        String s = restTemplate.getForObject("http://first-service-provider/person/9001", String.class);
         return s;
     }
 
