@@ -6,7 +6,11 @@
 
     <groupId>com.sise</groupId>
     <artifactId>spring_cloud_01</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>product_service</module>
+    </modules>
 
 
     <parent>
