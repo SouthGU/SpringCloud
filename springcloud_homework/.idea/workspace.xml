@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92224f5a-c23f-40f6-a729-2939a7f2213e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab02_rest_client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02_rest_client/src/main/java/com/RestClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02_service_invoker/src/main/java/com/invokerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_invoker/lab02_health_handler_invoker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_invoker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/HealtherInvokerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/InvokerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_invoker/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/lab02_health_handler_provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/HealthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/LAB02_HealthHandlerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthCheckHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_server/lab02_health_handler_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_server/src/main/java/com/HealthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_health_handler_server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab02_service_invoker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lab02_service_invoker/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab02_service_provider/src/main/java/com/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab02_service_provider/src/main/java/com/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab02_service_provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lab02_service_provider/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab02_service_provider/target/classes/com/FirstController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab02_service_provider/target/classes/com/FirstController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,6 +32,10 @@
     <ignored path="$PROJECT_DIR$/lab02_service_provider/target/" />
     <ignored path="$PROJECT_DIR$/lab02_service_invoker/target/" />
     <ignored path="$PROJECT_DIR$/lab02_rest_client/target/" />
+    <ignored path="$PROJECT_DIR$/lab02_health_handler_server/target/" />
+    <ignored path="$PROJECT_DIR$/lab02_health_handler_provider/target/" />
+    <ignored path="$PROJECT_DIR$/lab02_health_hadndler_invoker/target/" />
+    <ignored path="$PROJECT_DIR$/lab02_health_handler_invoker/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +46,122 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthCheckHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/LAB02_HealthHandlerProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_service_invoker/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/InvokerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1012#1029#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/HealtherInvokerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_server/src/main/java/com/HealthApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/HealthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +213,23 @@
         <option value="$PROJECT_DIR$/lab02_service_invoker/src/main/java/com/invokerController.java" />
         <option value="$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/lab02_service_provider/src/main/java/com/FirstController.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_server/pom.xml" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/LAB02_HealthHandlerProvider.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/HealthController.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthIndicator.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthCheckHandler.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/FirstController.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/Person.java" />
+        <option value="$PROJECT_DIR$/lab02_health_hadndler_invoker/pom.xml" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_server/src/main/java/HealthApplication.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_server/src/main/java/com/HealthApplication.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_invoker/pom.xml" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/HealtherInvokerApplication.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/InvokerController.java" />
+        <option value="$PROJECT_DIR$/lab02_health_handler_invoker/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -123,6 +267,49 @@
             <path>
               <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_health_handler_invoker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_health_handler_invoker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_health_handler_invoker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_health_handler_invoker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_health_handler_invoker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_health_handler_invoker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RestClientApplication">
+  <component name="RunManager" selected="Spring Boot.HealtherInvokerApplication">
     <configuration name="RestClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.RestClientApplication" />
       <module name="lab02_rest_client" />
@@ -193,15 +380,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lab01_test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.FirstServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstServiceProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab01_service_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.FirstServiceProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab02_health_handler_server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.FirstServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HealthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealtherInvokerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab02_health_handler_invoker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HealtherInvokerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,16 +450,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LAB02_ServiceProvider 01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="lab02_service_provider" />
+    <configuration name="LAB02_HealthHandlerProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab02_health_handler_provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.LAB02_ServiceProvider" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.LAB02_HealthHandlerProvider" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,36 +478,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LAB2_ServiceInvoker" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="lab02_service_invoker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.LAB2_ServiceInvoker" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.LAB02_EurekaApplication 02" />
       <item itemvalue="Spring Boot.LAB02_EurekaApplication 01" />
       <item itemvalue="Spring Boot.LAB02_ServiceProvider 02" />
-      <item itemvalue="Spring Boot.FirstServer" />
-      <item itemvalue="Spring Boot.LAB02_ServiceProvider 01" />
-      <item itemvalue="Spring Boot.LAB2_ServiceInvoker" />
       <item itemvalue="Spring Boot.FirstInvoker" />
       <item itemvalue="Application.RestClientApplication" />
+      <item itemvalue="Spring Boot.FirstServiceProvider" />
+      <item itemvalue="Spring Boot.LAB02_HealthHandlerProvider" />
+      <item itemvalue="Spring Boot.FirstServer" />
+      <item itemvalue="Spring Boot.HealthApplication" />
+      <item itemvalue="Spring Boot.HealtherInvokerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RestClientApplication" />
-        <item itemvalue="Spring Boot.LAB02_ServiceProvider 01" />
-        <item itemvalue="Spring Boot.LAB2_ServiceInvoker" />
+        <item itemvalue="Spring Boot.HealtherInvokerApplication" />
+        <item itemvalue="Spring Boot.LAB02_HealthHandlerProvider" />
+        <item itemvalue="Spring Boot.HealthApplication" />
         <item itemvalue="Spring Boot.LAB02_EurekaApplication 01" />
-        <item itemvalue="Spring Boot.FirstServer" />
+        <item itemvalue="Application.RestClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -310,17 +512,17 @@
       <updated>1584330453913</updated>
       <workItem from="1584330462630" duration="5021000" />
       <workItem from="1584586827915" duration="6019000" />
-      <workItem from="1584612016900" duration="2688000" />
+      <workItem from="1584612016900" duration="7567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13728000" />
+    <option name="totallyTimeSpent" value="18607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -331,7 +533,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.296034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.509915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,7 +547,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Terminal" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
       <window_info anchor="bottom" id="Azure Activity Log" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -362,6 +564,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab01_service_provider/src/main/java/com/FirstController.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -385,27 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab01_service_provider/src/main/java/com/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab01_service_provider/src/main/java/com/FirstServiceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab01_service_provider/src/main/java/com/FirstController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="25" column="73" lean-forward="true" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -541,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab02_service_invoker/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab02_service_invoker/src/main/java/com/LAB2_ServiceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -597,6 +787,176 @@
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01_service_provider/src/main/java/com/FirstController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="35" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01_service_provider/src/main/java/com/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="20" column="1" selection-start-line="9" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_service_invoker/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_server/src/main/java/com/HealthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/lab02_health_handler_invoker.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/FirstController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/MyHealthCheckHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="7" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/HealthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_provider/src/main/java/com/LAB02_HealthHandlerProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/HealtherInvokerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_health_handler_invoker/src/main/java/com/InvokerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1012#1029#0" expanded="true" />
           </folding>
         </state>
       </provider>

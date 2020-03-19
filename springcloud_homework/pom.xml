@@ -16,6 +16,9 @@
         <module>lab02_service_provider</module>
         <module>lab02_service_invoker</module>
         <module>lab02_rest_client</module>
+        <module>lab02_health_handler_server</module>
+        <module>lab02_health_handler_provider</module>
+        <module>lab02_health_hadndler_invoker</module>
     </modules>
 
     <parent>

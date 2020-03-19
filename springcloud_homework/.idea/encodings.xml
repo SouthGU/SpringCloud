@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/lab01_service_invoker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab01_service_provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab01_test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab02_health_handler_invoker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab02_health_handler_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab02_health_handler_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab02_rest_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab02_service_invoker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab02_service_provider" charset="UTF-8" />
