@@ -2,7 +2,7 @@ server:
   port: 9000
 spring:
   application:
-    name: lab-first-service-invoker
+    name: lab02-first-service-invoker
 eureka:
   instance:
     hostname: localhost

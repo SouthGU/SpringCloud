@@ -29,6 +29,7 @@ public class FirstController {
 
         person.setMessage(request.getRequestURI().toString());
 
+        System.out.println(person.getMessage()+"**************************");
         Map<String,String> paramterMap = Maps.newHashMap();
         paramterMap.put("PersonId",person.getPersonId().toString());
         paramterMap.put("Pname",person.getPname());
