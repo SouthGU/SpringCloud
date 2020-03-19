@@ -7,7 +7,7 @@ eureka:
   client:
     register-with-eureka: true # 服务注册，是否将自己注册到Eureka服务器中
     fetch-registry: true # 服务发现，是否从Eureka中获取注册信息
-    service-url:
+    service-url: #Eureka客户与客户端的交互地址，高可用状态配置对方的地址，单击状态配置自己（如果不配置则默认本机8761端口）
       defaultZone: ${EUREKA_SERVER:http://slave2:8762/eureka/}
   instance:
     hostname: ${EUREKA_DOMAIN:slave1}
