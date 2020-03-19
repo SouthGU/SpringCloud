@@ -10,6 +10,7 @@
         <module name="lab01_service_invoker" />
         <module name="lab02_spring_cloud_1" />
         <module name="lab01_service_provider" />
+        <module name="lab02_service_provider" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="lab01_service_invoker" options="-parameters" />
       <module name="lab01_service_provider" options="-parameters" />
       <module name="lab01_test" options="-parameters" />
+      <module name="lab02_service_provider" options="-parameters" />
       <module name="lab02_spring_cloud_1" options="-parameters" />
       <module name="springcloud_homework" options="-parameters" />
     </option>

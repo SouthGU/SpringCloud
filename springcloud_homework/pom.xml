@@ -13,6 +13,7 @@
         <module>lab01_service_provider</module>
         <module>lab01_service_invoker</module>
         <module>lab02_spring_cloud_1</module>
+        <module>lab02_service_provider</module>
     </modules>
 
     <parent>

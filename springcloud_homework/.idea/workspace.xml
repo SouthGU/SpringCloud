@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92224f5a-c23f-40f6-a729-2939a7f2213e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab02_spring_cloud_1/lab02_spring_cloud_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02_spring_cloud_1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02_spring_cloud_1/src/main/java/com/LAB02_EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02_spring_cloud_1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_service_provider/lab02_service_provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_service_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +16,7 @@
     <ignored path="$PROJECT_DIR$/lab01_service_provider/target/" />
     <ignored path="$PROJECT_DIR$/lab01_service_invoker/target/" />
     <ignored path="$PROJECT_DIR$/lab02_spring_cloud_1/target/" />
+    <ignored path="$PROJECT_DIR$/lab02_service_provider/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab02_spring_cloud_1/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+            <state relative-caret-position="88">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="78" lean-forward="true" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -73,6 +82,8 @@
         <option value="$PROJECT_DIR$/lab02_spring_cloud_1/src/main/java/LAB02_EurekaApplication.java" />
         <option value="$PROJECT_DIR$/lab02_spring_cloud_1/src/main/java/com/LAB02_EurekaApplication.java" />
         <option value="$PROJECT_DIR$/lab02_spring_cloud_1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lab02_service_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -113,6 +124,32 @@
             <path>
               <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_service_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_service_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_service_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02_service_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
               <item name="lab02_spring_cloud_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -127,23 +164,6 @@
               <item name="lab02_spring_cloud_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="lab02_spring_cloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="lab02_spring_cloud_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_homework" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LAB02_EurekaApplication 02">
+  <component name="RunManager" selected="Spring Boot.LAB02_ServiceProvider">
     <configuration name="FirstInvoker" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="lab01_service_invoker" />
       <extension name="coverage">
@@ -268,15 +288,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LAB02_ServiceProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab02_service_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.LAB02_ServiceProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.LAB02_EurekaApplication 02" />
       <item itemvalue="Spring Boot.LAB02_EurekaApplication 01" />
       <item itemvalue="Spring Boot.FirstInvoker" />
       <item itemvalue="Spring Boot.FirstServer" />
       <item itemvalue="Spring Boot.FirstServiceProvider" />
+      <item itemvalue="Spring Boot.LAB02_ServiceProvider" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LAB02_ServiceProvider" />
         <item itemvalue="Spring Boot.LAB02_EurekaApplication 01" />
         <item itemvalue="Spring Boot.FirstServer" />
         <item itemvalue="Spring Boot.FirstServiceProvider" />
@@ -295,18 +330,18 @@
       <option name="presentableId" value="Default" />
       <updated>1584330453913</updated>
       <workItem from="1584330462630" duration="5021000" />
-      <workItem from="1584586827915" duration="2641000" />
+      <workItem from="1584586827915" duration="3519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7662000" />
+    <option name="totallyTimeSpent" value="8540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -317,7 +352,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44617563" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29461756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,22 +515,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_service_provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab02_spring_cloud_1/src/main/java/com/LAB02_EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="296">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab02_spring_cloud_1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        <state relative-caret-position="88">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab02_service_provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="78" lean-forward="true" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
         </state>
       </provider>
     </entry>
