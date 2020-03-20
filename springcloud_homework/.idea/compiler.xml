@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lab02_service_invoker" />
+        <module name="lab01_service_provider" />
         <module name="lab02_health_handler_server" />
         <module name="lab02_spring_cloud_1" />
-        <module name="lab01_service_provider" />
+        <module name="lab02_health_handler_invoker" />
         <module name="lab01_test" />
         <module name="lab02_rest_client" />
-        <module name="lab02_health_handler_invoker" />
         <module name="lab01_service_invoker" />
         <module name="lab02_health_handler_provider" />
         <module name="lab02_service_provider" />
