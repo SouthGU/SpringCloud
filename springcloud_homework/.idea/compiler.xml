@@ -9,6 +9,7 @@
         <module name="lab02_spring_cloud_1" />
         <module name="lab02_service_invoker" />
         <module name="lab03_first_ribbon_server" />
+        <module name="lab03_first_ribbon_client" />
         <module name="lab02_health_handler_server" />
         <module name="lab02_health_handler_invoker" />
         <module name="lab01_service_provider" />
@@ -32,6 +33,7 @@
       <module name="lab02_service_invoker" options="-parameters" />
       <module name="lab02_service_provider" options="-parameters" />
       <module name="lab02_spring_cloud_1" options="-parameters" />
+      <module name="lab03_first_ribbon_client" options="-parameters" />
       <module name="lab03_first_ribbon_server" options="-parameters" />
       <module name="springcloud_homework" options="-parameters" />
     </option>

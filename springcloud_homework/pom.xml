@@ -19,6 +19,7 @@
         <module>lab02/lab02_health_handler_server</module>
         <module>lab02/lab02_health_handler_provider</module>
         <module>lab03_first_ribbon_server</module>
+        <module>lab03_first_ribbon_client</module>
 
     </modules>
 

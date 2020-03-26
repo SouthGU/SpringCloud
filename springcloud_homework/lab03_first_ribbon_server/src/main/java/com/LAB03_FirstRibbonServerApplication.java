@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @Description:
  */
 @SpringBootApplication
-public class FirstRibbonServerApplication {
+public class LAB03_FirstRibbonServerApplication {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class FirstRibbonServerApplication {
         Scanner scanner = new Scanner(System.in);
         String port = scanner.nextLine();
 
-        new SpringApplicationBuilder(FirstRibbonServerApplication.class)
+        new SpringApplicationBuilder(LAB03_FirstRibbonServerApplication.class)
                 .properties("server.port="+port).run(args);
     }
 }
