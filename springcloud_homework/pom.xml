@@ -18,6 +18,7 @@
         <module>lab02/lab02_rest_client</module>
         <module>lab02/lab02_health_handler_server</module>
         <module>lab02/lab02_health_handler_provider</module>
+        <module>lab03_first_ribbon_server</module>
 
     </modules>
 
@@ -53,6 +54,16 @@
             <artifactId>lombok</artifactId>
             <version>1.18.4</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+            <version>1.0-rc2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.49</version>
         </dependency>
     </dependencies>
 
