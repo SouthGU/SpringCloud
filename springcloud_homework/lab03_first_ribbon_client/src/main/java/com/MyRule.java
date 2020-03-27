@@ -5,6 +5,7 @@ import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.Server;
 
 import java.util.List;
+import java.util.Random;
 
 /**
  * @Auther: sise.xgl
@@ -21,7 +22,25 @@ public class MyRule implements IRule {
 
     public Server choose(Object key){
         List<Server> servers = Ib.getAllServers();
-        return servers.get(0);
+//        return servers.get(0);
+        Random random = new Random();
+        final  int number = random.nextInt(10);
+        if(number < 3){
+            return findServer(servers,8081);
+        }else {
+            return findServer(servers,8085);
+        }
+
+    }
+
+    private Server findServer(List<Server> allservers, int port) {
+        for (Server server: allservers){
+            if(server.getPort() == port){
+                return server;
+            }
+        }
+        System.out.println("Null port = "+ port);
+        return null;
     }
 
     public void setLoadBalancer(ILoadBalancer Ib){

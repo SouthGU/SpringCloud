@@ -29,7 +29,7 @@ public class LAB03_FirstRibbonClientApplication {
         RestClient client = (RestClient) ClientFactory.getNamedClient("my-client");
         HttpRequest request = HttpRequest.newBuilder().uri("/person/1").build();
 
-        for (int i = 0 ; i < 6 ; i++ ){
+        for (int i = 0 ; i < 10 ; i++ ){
             HttpResponse response  = client.executeWithLoadBalancer(request);
             String result = response.getEntity(String.class);
             System.out.println(result);
