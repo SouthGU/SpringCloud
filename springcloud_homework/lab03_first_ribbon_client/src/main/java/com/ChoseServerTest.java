@@ -17,8 +17,13 @@ public class ChoseServerTest {
 
     public static void main(String[] args) {
 
-        //创建负载均衡器
-        ILoadBalancer Ib = new BaseLoadBalancer();
+        //1.创建负载均衡器
+        //ILoadBalancer Ib = new BaseLoadBalancer();
+
+
+        //2.设置自定义负载均衡规则
+        BaseLoadBalancer Ib = new BaseLoadBalancer();
+        Ib.setRule(new MyRule(Ib));
 
         //添加服务器
         List<Server> servers = new ArrayList<Server>();
