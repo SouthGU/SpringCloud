@@ -20,6 +20,11 @@
         <module>lab02/lab02_health_handler_provider</module>
         <module>lab03_first_ribbon_server</module>
         <module>lab03_first_ribbon_client</module>
+        <module>lab04_cloud_server</module>
+        <module>lab04_cloud_provider</module>
+        <module>lab04_cloud_invoker</module>
+        <module>lab04_first_cloud_rest_client</module>
+        <module>lab04_rest_template_test</module>
 
     </modules>
 

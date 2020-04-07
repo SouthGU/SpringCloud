@@ -6,20 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab02_spring_cloud_1" />
-        <module name="lab02_service_invoker" />
-        <module name="lab03_first_ribbon_server" />
-        <module name="lab03_first_ribbon_client" />
-        <module name="lab02_health_handler_server" />
-        <module name="lab02_health_handler_invoker" />
-        <module name="lab01_service_provider" />
-        <module name="lab01_test" />
-        <module name="lab02_rest_client" />
-        <module name="lab01_service_invoker" />
         <module name="lab02_health_handler_provider" />
+        <module name="lab01_test" />
+        <module name="lab04_first_cloud_rest_client" />
+        <module name="lab02_spring_cloud_1" />
+        <module name="lab02_health_handler_invoker" />
+        <module name="lab04_rest_template_test" />
+        <module name="lab01_service_provider" />
+        <module name="lab02_service_invoker" />
+        <module name="lab02_health_handler_server" />
+        <module name="lab04_cloud_invoker" />
         <module name="lab02_service_provider" />
+        <module name="lab04_cloud_provider" />
+        <module name="lab01_service_invoker" />
+        <module name="lab04_cloud_server" />
+        <module name="lab02_rest_client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab03_first_ribbon_client" target="1.8" />
+      <module name="lab03_first_ribbon_server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -35,6 +42,11 @@
       <module name="lab02_spring_cloud_1" options="-parameters" />
       <module name="lab03_first_ribbon_client" options="-parameters" />
       <module name="lab03_first_ribbon_server" options="-parameters" />
+      <module name="lab04_cloud_invoker" options="-parameters" />
+      <module name="lab04_cloud_provider" options="-parameters" />
+      <module name="lab04_cloud_server" options="-parameters" />
+      <module name="lab04_first_cloud_rest_client" options="-parameters" />
+      <module name="lab04_rest_template_test" options="-parameters" />
       <module name="springcloud_homework" options="-parameters" />
     </option>
   </component>
