@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/2/spring_cloud_demo/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_demo/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_demo/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/3/spring_cloud_demo/api_gateway_server/pom.xml" />
+        <option value="$PROJECT_DIR$/3/spring_cloud_demo/api_zuul_server/pom.xml" />
+        <option value="$PROJECT_DIR$/3/spring_cloud_demo/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/3/spring_cloud_demo/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/3/spring_cloud_demo/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_config/config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_config/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_config/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/4/spring_cloud&amp;apollo/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/hystrix_turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/product_service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

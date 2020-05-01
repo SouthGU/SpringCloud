@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_demo/eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_demo/order_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_demo/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/hystrix_turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3/spring_cloud_demo/api_gateway_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3/spring_cloud_demo/api_zuul_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3/spring_cloud_demo/eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3/spring_cloud_demo/order_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3/spring_cloud_demo/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud&amp;apollo/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud_config/config_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud_config/eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud_config/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_producer" charset="UTF-8" />
+  </component>
+</project>

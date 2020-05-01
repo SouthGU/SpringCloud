@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3/spring_cloud_demo/api_gateway_server/api_gateway_server.iml" filepath="$PROJECT_DIR$/3/spring_cloud_demo/api_gateway_server/api_gateway_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3/spring_cloud_demo/api_zuul_server/api_zuul_server.iml" filepath="$PROJECT_DIR$/3/spring_cloud_demo/api_zuul_server/api_zuul_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud_config/config_server/config_server.iml" filepath="$PROJECT_DIR$/4/spring_cloud_config/config_server/config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_demo/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/2/spring_cloud_demo/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3/spring_cloud_demo/eureka_server/eureka_server (1).iml" filepath="$PROJECT_DIR$/3/spring_cloud_demo/eureka_server/eureka_server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud_config/eureka_server/eureka_server (2).iml" filepath="$PROJECT_DIR$/4/spring_cloud_config/eureka_server/eureka_server (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/eureka_server/eureka_server (3).iml" filepath="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/eureka_server/eureka_server (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/eureka_server/eureka_server (4).iml" filepath="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/eureka_server/eureka_server (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/hystrix_turbine/hystrix_turbine.iml" filepath="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/hystrix_turbine/hystrix_turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_demo/order_service/order_service.iml" filepath="$PROJECT_DIR$/2/spring_cloud_demo/order_service/order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3/spring_cloud_demo/order_service/order_service (1).iml" filepath="$PROJECT_DIR$/3/spring_cloud_demo/order_service/order_service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service/order_service (2).iml" filepath="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service/order_service (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_feign/order_service_feign.iml" filepath="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_feign/order_service_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_feign/order_service_feign (1).iml" filepath="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_feign/order_service_feign (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_rest/order_service_rest.iml" filepath="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/order_service_rest/order_service_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_rest/order_service_rest (1).iml" filepath="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/order_service_rest/order_service_rest (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_demo/product_service/product_service.iml" filepath="$PROJECT_DIR$/2/spring_cloud_demo/product_service/product_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3/spring_cloud_demo/product_service/product_service (1).iml" filepath="$PROJECT_DIR$/3/spring_cloud_demo/product_service/product_service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud_config/product_service/product_service (2).iml" filepath="$PROJECT_DIR$/4/spring_cloud_config/product_service/product_service (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud&amp;apollo/product_service/product_service (3).iml" filepath="$PROJECT_DIR$/4/spring_cloud&amp;apollo/product_service/product_service (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_hystrix_demo/product_service/product_service (4).iml" filepath="$PROJECT_DIR$/2/spring_cloud_hystrix_demo/product_service/product_service (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/spring_cloud_sentinel_demo/product_service/product_service (5).iml" filepath="$PROJECT_DIR$/2/spring_cloud_sentinel_demo/product_service/product_service (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_cloud_demo.iml" filepath="$PROJECT_DIR$/.idea/spring_cloud_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/stream_consumer.iml" filepath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/stream_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/stream_consumer_2.iml" filepath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/stream_consumer_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/stream_producer.iml" filepath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/stream_producer.iml" />
+    </modules>
+  </component>
+</project>
