@@ -1,7 +1,0 @@
-my-client.ribbon.listOfServers: localhost:8081,localhost:8085
-my-client.ribbon.NFLoadBalancerRuleClassName: com.MyRule
-#my-client.ribbon.NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-
-
-my-client.ribbon.NFLoadBalancerPingClassName: com.MyPing
-my-client.ribbon.NFLoadBalancerPingInterval=2

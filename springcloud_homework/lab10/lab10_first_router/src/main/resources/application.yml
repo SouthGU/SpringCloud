@@ -1,4 +1,0 @@
-zuul:
-  routes:
-    books:
-      url: http://localhost:8090
