@@ -2,81 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36dd24f1-2de2-4dc4-8dfb-60063c86ff80" name="Default Changelist" comment=" --&gt; 2020/6/5.">
-      <change afterPath="$PROJECT_DIR$/../homework/lab12/lab12_rabbit_test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework/lab12/lab12_rabbit_test/src/main/java/com/xgl/Receive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework/lab12/lab12_rabbit_test/src/main/java/com/xgl/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework/lab12/lab12_rabbit_test/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/spring_cloud_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/spring_cloud_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/src/main/java/cn/itcast/stream/ConsumerApplication2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/src/main/java/cn/itcast/stream/channel/MyProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/src/main/java/cn/itcast/stream/consumer/MessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/target/classes/cn/itcast/stream/ConsumerApplication2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/target/classes/cn/itcast/stream/channel/MyProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer_2/target/classes/cn/itcast/stream/consumer/MessageListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/src/main/java/cn/itcast/stream/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/src/main/java/cn/itcast/stream/channel/MyProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/src/main/java/cn/itcast/stream/producer/MessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/src/test/java/cn/itcast/stream/ProducerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/target/classes/cn/itcast/stream/ProducerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/target/classes/cn/itcast/stream/channel/MyProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/target/classes/cn/itcast/stream/producer/MessageSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/target/test-classes/cn/itcast/stream/ProducerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-1.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-2.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-3.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-4.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-5.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-6.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-7.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-8.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloud微服务应用开发-9.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework/lab07/lab07_first_hystrix_client/src/main/java/com/xgl/CommandHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework/lab07/lab07_first_hystrix_client/src/main/java/com/xgl/CommandHelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/azureSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/src/main/java/com/OrderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/src/main/java/com/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/src/main/java/com/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/target/classes/cn/itcast/order/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/target/classes/com/OrderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/order_service/target/classes/com/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/product_service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/java/com/ProductApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/java/com/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/java/com/dao/ProductDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/java/com/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/java/com/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/java/com/service/impl/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/com/ProductApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/com/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/com/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/com/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/com/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/product_service/target/classes/com/service/impl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud_01/spring_cloud_01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../资料文档/day1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../资料文档/day2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../资料文档/day3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../资料文档/day4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/2/spring_cloud_demo/eureka_server/target/" />
     <ignored path="$PROJECT_DIR$/2/spring_cloud_demo/order_service/target/" />
@@ -128,7 +54,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4/spring_cloud_config/product_service/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -137,7 +63,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/src/main/java/cn/itcast/stream/ConsumerApplication1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>synchronized</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -151,6 +91,7 @@
         <option value="$PROJECT_DIR$/3/spring_cloud_demo/api_zuul_server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/3/spring_cloud_demo/api_gateway_server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/4/spring_cloud_stream/stream_producer/src/main/java/cn/itcast/stream/producer/MessageSender.java" />
+        <option value="$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/src/main/java/cn/itcast/stream/ConsumerApplication1.java" />
       </list>
     </option>
   </component>
@@ -174,8 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +134,51 @@
               <item name="spring_cloud_demo" type="462c0819:PsiDirectoryNode" />
               <item name="4" type="462c0819:PsiDirectoryNode" />
               <item name="spring_cloud_stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_cloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_cloud_stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream_consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_cloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_cloud_stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_cloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_cloud_stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_cloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_cloud_stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_cloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_cloud_stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +354,8 @@
       <workItem from="1591232941173" duration="3630000" />
       <workItem from="1591239210466" duration="10069000" />
       <workItem from="1591264188944" duration="3726000" />
-      <workItem from="1590493211268" duration="1882000" />
+      <workItem from="1590493211268" duration="2523000" />
+      <workItem from="1593265675414" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="order-service --&gt; 2020/5/26.">
       <created>1590493271785</created>
@@ -580,11 +567,25 @@
       <option name="project" value="LOCAL" />
       <updated>1591704764616</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="stream-consumer-2 --&gt; 2020/6/10.">
+      <created>1591791222123</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591791222123</updated>
+    </task>
+    <task id="LOCAL-00032" summary="stream-producer --&gt; 2020/6/10.">
+      <created>1591791246641</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591791246641</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21388000" />
+    <option name="totallyTimeSpent" value="22810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,7 +599,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.26340482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.26675603" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25670242" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -643,8 +644,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="product-service --&gt; 2020/5/27." />
-    <MESSAGE value="eureka-server --&gt; 2020/5/27." />
     <MESSAGE value="order-service --&gt; 2020/5/28." />
     <MESSAGE value="product-service --&gt; 2020/5/31." />
     <MESSAGE value="eureka-server --&gt; 2020/6/1." />
@@ -668,7 +667,9 @@
     <MESSAGE value="config-eureka-server --&gt; 2020/6/8." />
     <MESSAGE value="config-product-service --&gt; 2020/6/8." />
     <MESSAGE value="stream-consumer --&gt; 2020/6/9." />
-    <option name="LAST_COMMIT_MESSAGE" value="stream-consumer --&gt; 2020/6/9." />
+    <MESSAGE value="stream-consumer-2 --&gt; 2020/6/10." />
+    <MESSAGE value="stream-producer --&gt; 2020/6/10." />
+    <option name="LAST_COMMIT_MESSAGE" value="stream-producer --&gt; 2020/6/10." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2/spring_cloud_demo/eureka_server/src/main/java/cn/itcast/eureka/EurekaServerApplication.java">
@@ -818,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/src/main/java/cn/itcast/stream/ConsumerApplication1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/src/main/java/cn/itcast/stream/channel/MyProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -948,6 +942,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0/guava-16.0.jar!/com/google/common/collect/Synchronized.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/spring_cloud_stream/stream_consumer/src/main/java/cn/itcast/stream/ConsumerApplication1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
